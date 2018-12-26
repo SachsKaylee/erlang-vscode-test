@@ -1,0 +1,11 @@
+{application,erlvscode,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{erlvscode_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[erlvscode_app,erlvscode_sup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
