@@ -9,7 +9,8 @@
             "type": "erlang",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "preLaunchTask": "Compile"
+            "preLaunchTask": "Compile",
+            "arguments": "-eval \"application:start(erlvscode)\""
         }
     ]
 }
