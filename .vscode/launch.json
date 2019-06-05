@@ -7,7 +7,7 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Compile",
-            "arguments": "-eval \"application:ensure_all_started(erlvscode)\""
+            "arguments": "-env ERL_LIBS ./_build/default/lib -setcookie dev -sname dev -config ./config/sys.config -eval \"application:ensure_all_started(erlvscode)\""
         }
     ]
 }
